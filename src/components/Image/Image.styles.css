@@ -1,0 +1,33 @@
+.image-container {
+  flex: auto;
+  width: 136px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 801px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+  .image-container {
+    border-radius: 12px;
+  }
+
+  .image {
+    border-radius: 12px;
+  }
+}
+@media screen and (min-width: 1025px) { 
+  /* big landscape tablets, laptops, and desktops */ 
+  .image-container {
+    border-radius: 12px;
+  }
+
+  .image {
+    border-radius: 12px;
+  }
+}
